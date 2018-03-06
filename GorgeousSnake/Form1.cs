@@ -144,18 +144,6 @@ namespace GorgeousSnake
 
         }
 
-
-        //TODO: Don't leave not used methods/classes/folders
-        private void lblScore_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pbCanvas_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pbCanvas_Paint(object sender, PaintEventArgs e)
         {
             Graphics canvas = e.Graphics;
@@ -212,16 +200,6 @@ namespace GorgeousSnake
                 lblGameOVer.Visible = true;
                 timerLabel.Start();
             }
-        }
-
-        private void showStartMenu()
-        {
-
-        }
-
-        private void startNewGame_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void MovePlayer()

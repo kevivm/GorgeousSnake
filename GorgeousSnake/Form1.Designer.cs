@@ -176,7 +176,6 @@
             this.startNewGame.Text = "Start New Game";
             this.startNewGame.UseVisualStyleBackColor = true;
             this.startNewGame.Visible = false;
-            this.startNewGame.Click += new System.EventHandler(this.startNewGame_Click);
             // 
             // menuStrip1
             // 
