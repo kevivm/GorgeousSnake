@@ -12,7 +12,7 @@
         public static bool IsGameOver { get; set; }
         public static string PathToStatisticFile { get; set; }
         public static int BodyCount { get; set; }
-
+        
         public static Direction Direction { get; set; }
 
         public Settings()
