@@ -11,7 +11,6 @@ D:\My\Lecturing\Students\MKevin\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSn
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\bin\Debug\GorgeousSnake.exe.config
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\bin\Debug\GorgeousSnake.exe
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\bin\Debug\GorgeousSnake.pdb
-C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.csprojResolveAssemblyReference.cache
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.Form1.resources
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.Form2.resources
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.Properties.Resources.resources
@@ -19,3 +18,4 @@ C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.exe
 C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.pdb
+C:\Users\LENOVO\source\repos\GorgeousSnake\GorgeousSnake\obj\Debug\GorgeousSnake.csprojResolveAssemblyReference.cache

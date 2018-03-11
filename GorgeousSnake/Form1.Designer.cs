@@ -33,7 +33,7 @@
             this.pbCanvas = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
-            this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.lblGameOVer = new System.Windows.Forms.Label();
             this.countBody = new System.Windows.Forms.Label();
             this.lblSpeed = new System.Windows.Forms.Label();
@@ -100,7 +100,6 @@
             this.lblGameOVer.Text = "Game Over";
             this.lblGameOVer.Visible = false;
             this.lblGameOVer.Click += new System.EventHandler(this.lblGameOVer_Click_1);
-            this.lblGameOVer.MouseLeave += new System.EventHandler(this.lblGameOVer_MouseLeave);
             this.lblGameOVer.MouseHover += new System.EventHandler(this.lblGameOVer_MouseHover);
             // 
             // countBody
@@ -138,7 +137,6 @@
             this.InfoBar.Name = "InfoBar";
             this.InfoBar.Size = new System.Drawing.Size(767, 69);
             this.InfoBar.TabIndex = 6;
-            this.InfoBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label3
             // 
@@ -197,7 +195,6 @@
             this.менюИгрыToolStripMenuItem.Name = "менюИгрыToolStripMenuItem";
             this.менюИгрыToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
             this.менюИгрыToolStripMenuItem.Text = "Game Menu";
-            this.менюИгрыToolStripMenuItem.Click += new System.EventHandler(this.менюИгрыToolStripMenuItem_Click);
             // 
             // newGameToolStripMenuItem
             // 
@@ -232,7 +229,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(820, 718);
+            this.ClientSize = new System.Drawing.Size(820, 719);
             this.Controls.Add(this.startNewGame);
             this.Controls.Add(this.InfoBar);
             this.Controls.Add(this.lblGameOVer);
@@ -244,7 +241,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Snake";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.pbCanvas)).EndInit();
@@ -262,7 +258,7 @@
         private System.Windows.Forms.PictureBox pbCanvas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblScore;
-        private System.Windows.Forms.Timer gameTimer;
+        private System.Windows.Forms.Timer GameTimer;
         private System.Windows.Forms.Label lblGameOVer;
         private System.Windows.Forms.Label countBody;
         private System.Windows.Forms.Label lblSpeed;
